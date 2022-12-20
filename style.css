@@ -101,6 +101,7 @@ header{
     display: flex;
     align-items: center;
     text-transform: capitalize;
+    text-decoration: none;
     left: 10%;
     top: 35%;
     color: #2A2A2A;
@@ -127,6 +128,7 @@ header{
     font-weight: 800;
     font-size: 16px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #7FAD39;
 
@@ -139,6 +141,7 @@ header{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #2A2A2A;
 
@@ -151,6 +154,7 @@ header{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #2A2A2A;
 
@@ -163,6 +167,7 @@ header{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #2A2A2A;
 
@@ -175,6 +180,7 @@ header{
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
+    text-decoration: none;
 
     color: #2A2A2A;
 
@@ -225,20 +231,20 @@ color: #FFFFFF;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #7FAD39;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
 }
 
 .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #7FAD39;}
 
 .menu:hover .dropdown-content {display: block;}
 
