@@ -75,7 +75,7 @@ body {
 }
 .login {
     color: #FFFFFF;
-    text-emphasis: none;
+    text-decoration: none;
 }
 header{
     position: absolute;
@@ -196,7 +196,10 @@ header{
  top: 40%;
 }
 .Department {
- 
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
 font-family: 'Noto Sans';
 font-style: normal;
 font-weight: 800;
@@ -286,5 +289,65 @@ color: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: italic;
     color: #2A2A2A;
-    width: 20%;
+    width: 60%;
+    height: 170%;
+    margin-left: 100%;
+}
+.advertising{
+    position: absolute;
+    width: 49%;
+    height: 10.59%;
+    top: 27%;
+    left: 24%;
+    background: #F5F5F5;
+    height: 55%;
+}
+.Fruit-Fresh{
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 800;
+    color: #7FAD39;
+    top: 20%;
+    left: 10%;
+}
+.Vegetable-Organic{
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 100;
+    color: #2A2A2A;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 50px;
+    left: 10%;
+    top: 25%;
+} 
+.Delievery {
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #999999;
+    top: 55%;
+    left: 10%;
+}
+.ShopBtn {
+    position: absolute;
+    background: #7FAD39;
+    border: none;
+    width: 16.59%;
+    height: 11.34%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    left: 10%;
+    top: 70%;
+}
+.Fresh-Vegetables {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    height: 70%;
 }
