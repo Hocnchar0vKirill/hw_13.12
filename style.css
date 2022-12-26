@@ -366,17 +366,19 @@ color: #FFFFFF;
     position: relative;
     background: #F5F5F5;
     width: 20%;
-    height: 40%;
+    height: 50%;
     display: flex;
     align-items: center;
     flex-direction: column; 
 }
 .productBtn{
+    position: absolute;
     background: #FFFFFF;
     font-family: 'Noto Sans';
     font-style: italic;
     color: #2A2A2A;
     border: none;
+    bottom: 5%;
 }
 .ShopifyBlock{
     position: absolute;
@@ -432,4 +434,46 @@ color: #FFFFFF;
     margin-left: 22%;
     width: 10%;
     height: 19.01%;
+}
+.top-products{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 160%;
+    height: 15%;
+}
+.products1{
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+.product-card{
+    display: flex;
+    flex-direction: row;
+}
+.product-text{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.product-name{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2A2A2A;
+}
+.product-cost{
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2A2A2A;
 }
