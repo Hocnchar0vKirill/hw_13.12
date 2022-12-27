@@ -478,3 +478,58 @@ color: #FFFFFF;
     line-height: 30px;
     color: #2A2A2A;
 }
+.Featured-Product{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    top: 220%;
+    width: 59.38%;
+    height: 21.09%;
+    left: 20%;
+}
+.featured-product{
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 34px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+.rectangle-2{
+    width: 10%;
+}
+.nav-item{
+ 
+  margin: 3%;
+  text-decoration: none;  
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #999999;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.product-btn2{
+    margin-left: 10%;
+    background: #F5F5F5;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-title{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2A2A2A;
+
+}
